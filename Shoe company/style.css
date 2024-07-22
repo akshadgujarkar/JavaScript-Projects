@@ -1,0 +1,254 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: "Archivo";
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: auto;
+    max-width: 75%;
+}
+
+#shoe-img {
+    width: 8rem;
+}
+
+nav a {
+    margin-left: 4.5rem;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.title {
+    font-size: 103px;
+    font-weight: 700;
+    text-transform: uppercase;
+    max-width: 85%;
+    margin-inline: auto;
+}
+
+.shoe img {
+    max-width: 750px;
+    max-height: 766px;
+}
+
+.page1 {
+    display: flex;
+    align-items: center;
+    max-width: 75%;
+    margin-inline: auto;
+
+}
+
+.back-img {
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-image: url('images/background-road-share\ 1.png');
+    background-repeat: no-repeat;
+    background-size: contain;*/
+    background-position: right;
+    margin-inline: auto;
+    width: 100%;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 58px;
+}
+
+.page2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#how-it-works {
+    width: 855px;
+    margin-top: 0;
+    position: relative;
+    top: -34rem;
+}
+
+.heel,
+.foot,
+.traction {
+    max-width: 361px;
+    height: 53px;
+    position: relative;
+    right: 40%;
+
+}
+
+.heel P,
+.foot P,
+.traction P {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.heel b,
+.foot b,
+.traction b {
+    font-size: 2rem;
+}
+
+.foot {
+    top: 0rem;
+    left: 100%;
+}
+
+#arrow1 {
+    position: relative;
+    width: 198px;
+    height: 193px;
+    left: -18%;
+    top: 8rem;
+
+}
+
+.heel {
+    position: relative;
+    top: 3rem;
+}
+
+#arrow2 {
+    width: 185px;
+    height: 160px;
+    position: relative;
+    left: 75%;
+    top: 10%;
+    display: block;
+}
+
+.traction {
+    position: relative;
+    top: 19rem;
+    left: -4rem;
+}
+
+#arrow3 {
+    width: 214px;
+    height: 214px;
+    position: relative;
+    top: 10rem;
+    left: 15%;
+}
+
+.stand-out img {
+    width: 599px;
+    height: 855px;
+    left: 65px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.stand-out {
+    background-image: url('images/about-us-background\ 1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.about-page {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 100%;
+    margin-inline: auto;
+    width: fit-content;
+}
+
+.about-content {
+    width: 549px;
+    height: 508px;
+    top: 197px;
+    left: 736px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: 4rem;
+
+}
+
+.about-heading {
+    font-family: Archivo;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75.21px;
+    letter-spacing: -0.04em;
+    text-align: left;
+
+}
+
+.about-ps {
+    width: 505px;
+    height: 400px;
+    top: 305px;
+    left: 780px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.about-ps p {
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 23.5px;
+    letter-spacing: -0.04em;
+    text-align: left;
+
+}
+
+#shoe-company {
+    width: 599px;
+    height: 998px;
+    left: 65px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    left: 15%;
+    max-width: 100%;
+    margin-inline: auto;
+}
+
+.contact {
+   
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 28.21px;
+    letter-spacing: -0.04em;
+   text-align: left;
+
+}
+#contact-us{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.contact-page {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.contact-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location img {
+    width: 676px;
+    height: 809px;
+
+
+}
