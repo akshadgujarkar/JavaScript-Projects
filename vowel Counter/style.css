@@ -1,0 +1,92 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+        background: linear-gradient(to top, #33001b, #FF0084);
+
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 10px rgba(0, 0 ,0,0.2);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: glow 1s infinite alternate;
+ border-radius: 10px;
+    /* max-width: 60vw;
+    max-height: 60vh;    */
+}
+
+@keyframes glow {
+    from{
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+    }
+    to{
+        box-shadow: 0px 0px 20px #e61380,
+        0px 0px 30px #ce1c78,
+        0px 0px 40px #ff0084;
+
+    }
+    
+}
+h1{
+    color: whitesmoke;
+    font-size: 36px;
+    margin-bottom: 20px;
+
+}
+#inputText{
+    width: 500px;
+    height: 350px;
+    resize: none;
+    margin: 10px auto;
+    display: block;
+    font-size: 24px;
+    padding: 20px;
+    color: black;
+    border: 1px solid white;
+    border-radius: inherit;
+    animation: slidin 1s ease;
+
+}
+
+@keyframes slidein {
+    from{
+        opacity: 0;
+        transform: translateY(0);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+
+button{
+    padding: 15px 30px;
+    background-color: rgb(200, 172, 218);
+    color: white;
+    width: 500px;
+    font-size: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: #33001b;
+}
+
+#result{
+    font-size: 20px;
+    margin-top: 20px;
+    color: aliceblue;
+    font-weight: bold;
+     animation: glow 1s infinite alternate;;
+    
+}

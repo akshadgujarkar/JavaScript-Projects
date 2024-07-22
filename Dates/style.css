@@ -1,0 +1,31 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display: flex;
+    margin: 2rem;
+    padding: 16px;
+    border-radius: 15px;
+    align-items: center;
+    flex-direction: column;
+    background-color: wheat;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+p{
+    letter-spacing: 2px;
+}
+.container p{
+    max-width: 100%;
+}
+input,button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    background-color:rgb(145, 140, 140);
+    
+}
+input::placeholder{
+    color: inherit;
+}
