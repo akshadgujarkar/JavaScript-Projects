@@ -1,0 +1,294 @@
+body {
+    background-color: rgb(212, 227, 228);
+    font-family: cursive;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    border-radius: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 30rem;
+    width: 50rem;
+    background-color: rgb(179, 32, 32);
+    background-color: whitesmoke;
+}
+
+.calculator-section {
+    border-radius: inherit;
+    padding: 10px;
+}
+
+.result-section {
+    color: white;
+    background-color: rgb(19, 23, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* display: block; */
+    border-radius: inherit;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 5rem;
+    padding: 10px;
+
+}
+
+.result-img {
+    /* position: relative;
+    left: 3.5rem;
+    top: 5rem; */
+    width: 70%;
+    height: 40%;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.result-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.result-content {
+    margin-top: 0.8rem;
+    width: 100%;
+
+    height: fit-content;
+    text-align: center;
+}
+#result-caption1{
+    font-size: 1.5rem;
+}
+#result-caption2{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgb(150, 146, 146);
+}
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-bottom: 3rem;
+}
+
+#clear-form {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-size: 0.8rem;
+
+}
+
+h1 {
+    font-size: 1.2rem;
+}
+
+.amount {
+    margin-bottom: 1.3rem;
+}
+
+.input-amount {
+    max-width: 100%;
+}
+
+.input-amount input {
+    margin-top: 10px;
+    height: 2rem;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-weight: 700;
+    padding-left: 0.5rem;
+}
+
+.input-amount input::placeholder {
+    padding-left: 10px;
+    font-family: inherit;
+}
+
+#lblamt,
+.type p {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: rgb(150, 146, 146);
+
+}
+
+.calsi {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+
+.term,
+.rate {
+    justify-content: space-between;
+    border: 1px solid gray;
+    display: grid;
+    grid-template-columns: 77% 23%;
+    grid-template-rows: 100%;
+    max-width: fit-content;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+.rate {
+    margin-left: 1rem;
+    grid-template-columns: 90% 10%;
+}
+
+.term span,
+.rate span {
+    padding-top: 0.30rem;
+    background-color: rgba(205, 237, 226, 0.526);
+}
+
+.term input {
+    padding-left: 0.5rem;
+    border: 0;
+}
+
+.rate input {
+    padding-left: 0.5rem;
+    border: 0;
+    font-family: inherit;
+    font-weight: 600;
+}
+
+#year {
+    font-size: 0.9rem;
+    font-weight: 600;
+
+}
+
+.type {
+    margin-top: 2rem;
+}
+
+.type p {
+    font-size: 0.9rem;
+}
+
+.repay {
+    margin-top: 0.8rem;
+    width: 100%;
+    height: 2.4rem;
+    /* background-color: cyan; */
+    border-radius: 5px;
+    padding-top: 0.59rem;
+    border: 1px solid gray;
+    margin-bottom: 0.5rem;
+}
+.repay input,
+.interest input {
+    margin-left: 1rem;
+}
+
+.repay span {
+    padding-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.interest {
+    margin-top: 0.5rem;
+    /* background-color: salmon; */
+    height: 2.4rem;
+    width: 100%;
+    border-radius: 5px;
+    padding-top: 0.59rem;
+    border: 1px solid gray;
+}
+
+.interest span {
+    margin-left: 0.5rem;
+}
+
+
+.calculate {
+    margin-top: 2rem;
+    background-color: salmon;
+    width: 70%;
+    height: 2.8rem;
+    display: flex;
+    background-color: yellow;
+    border: 0.5px solid grey;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.calculate:active {
+    background-color: greenyellow;
+    animation: comp 0.3s ease-in 0ms 1;
+
+}
+
+@keyframes comp {
+    50% {
+        font-size: 13px;
+    }
+
+    100% {
+        font-size: 15px;
+    }
+}
+.after-action{
+    
+    width: 80%;
+    height: 80%;
+    padding: 0.6rem;
+    
+}
+.result-heading{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.instruction p{
+    font-weight: 100;
+    color: rgb(225, 220, 220);
+    word-spacing: 2px;
+    font-size: 0.6rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+}
+.response-container{
+    margin-top: 2.5rem;
+    width: 90%;
+    border-top: 10px solid yellow;
+    height: 60%;
+    border-radius: 5px;
+    background-color: rgba(55, 59, 97, 0.581);
+    padding: 1.9rem;
+}
+#result-monthly{
+    font-weight:200;
+    font-size:0.8rem;
+    color: rgb(225, 220, 220);
+    margin-bottom: 1rem;
+}
+.result-amount{
+    font-size: 2.7rem;
+    margin-bottom: 1.5rem;
+    color: yellow;
+}
+#result-total-repay{
+    margin-top: 1.5rem;
+    font-size:0.8rem;
+    font-weight: 200;
+    color: rgb(225, 220, 220);
+    margin-bottom: 0.5rem;
+}
+.result-repay-amt{
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+}

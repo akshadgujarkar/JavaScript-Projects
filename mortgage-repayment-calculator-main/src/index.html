@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortgage-repayment</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="calculator-section">
+                <div class="heading">
+                    <h1>Mortgage Calculator</h1>
+                    <span id="clear-form" style="cursor: pointer;">Clear All</span>
+                </div>
+                <div class="form">
+                    <div class="amount">
+                        <label id="lblamt" for="amount">Mortgage Amount</label> <br>
+                        <div class="input-amount"><input type="number" id="amount" placeholder="Enter mortgage amount">
+                        </div>
+                    </div>
+                    <div class="calsi">
+                        <div class="term">
+                            <input id="year" type="number"><span>years</span>
+                        </div>
+                        <div class="rate">
+                            <input id="rate" type="number"><span>%</span>
+                        </div>
+                    </div>
+                    <div class="type">
+                        <p>Mortgage Type</p>
+                        <div class="repay">
+                            <input type="radio" id="repay" value="repayment" name="method">
+                            <span>Repayment</span><br>
+                        </div>
+                        <div class="interest">
+                            <input type="radio" id="interest" value="interest" name="method">
+                            <span>Interest Only</span>
+                        </div>
+                    </div>
+                    <div class="calculate">
+                        <div><span>calsi</span> Calculate Repayments</div>
+                    </div>
+                </div>
+            </div>
+            <div class="result-section">
+                <div class="result-img"><img
+                        src="https://www.shutterstock.com/image-vector/budget-management-concept-economy-background-260nw-1941643669.jpg"
+                        alt=""></div>
+                <div class="result-content">
+                    <p id="result-caption1">Results shown here</p>
+                    <br>
+                    <p id="result-caption2">Complete the form and click "calculate repayment" to see what your monthly repayment would be.</p>
+
+                <!-- <div class="after-action">
+                    <div class="result-heading">Your results</div>
+                    <div class="instruction">
+                        <p>Your results are shown below on the information <br>
+                            you provided. To adjust the results, edit the form and <br>
+                            click "calculate repayments" again.
+                        </p>
+                    </div>
+                    <div class="response-container">
+                        <p id="result-monthly">Your monthly repayments</p>
+                        <div class="result-amount"> 23,4342</div>
+                        <hr>
+                        <p id="result-total-repay">Total you'll repay over the term</p>
+                        <div class="result-repay-amt">24,90234</div>
+
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
